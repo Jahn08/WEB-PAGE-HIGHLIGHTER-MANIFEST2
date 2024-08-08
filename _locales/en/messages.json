@@ -1,0 +1,422 @@
+{
+    "mark": {
+        "message": "Mark Selected Text",
+        "description": "Title for a context menu item marking selected text"
+    },
+
+    "unmark": {
+        "message": "Unmark Selected Text",
+        "description": "Title for a context menu item unmarking selected text"
+    },
+
+    "palette": {
+        "message": "Set Mark Colour",
+        "description": "Title for a context menu section revealing colours to set the current marking one"
+    },
+
+    "marker_green": {
+        "message": "Green",
+        "description": "Title for a context menu item choosing green as a current colour"
+    },
+    
+    "marker_red": {
+        "message": "Red",
+        "description": "Title for a context menu item choosing red as a current colour"
+    },
+    
+    "marker_pink": {
+        "message": "Pink",
+        "description": "Title for a context menu item choosing pink as a current colour"
+    },
+
+    "marker_orange": {
+        "message": "Orange",
+        "description": "Title for a context menu item choosing orange as a current colour"
+    },
+
+    "marker_yellow": {
+        "message": "Yellow",
+        "description": "Title for a context menu item choosing yellow as a current colour"
+    },
+    
+    "marker_blue": {
+        "message": "Blue",
+        "description": "Title for a context menu item choosing blue as a current colour"
+    },
+
+    "note_add": {
+        "message": "Add Note",
+        "description": "Title for a context menu item adding a note"
+    },
+
+    "note_add_prompt": {
+        "message": "New note text:",
+        "description": "Message for prompting a user to enter text for a new note"
+    },
+
+    "note_remove": {
+        "message": "Remove Note",
+        "description": "Title for a context menu item removing a note"
+    },
+
+    "note_navigation": {
+        "message": "Note Links",
+        "description": "Title for a context menu section revealing links to scroll page notes into view"
+    },
+
+    "storage": {
+        "message": "Page Storage",
+        "description": "Title for a context menu section revealing storage options"
+    },
+
+    "save": {
+        "message": "Save Page",
+        "description": "Title for a context menu item saving marks and notes on a page"
+    },
+
+    "save_to": {
+        "message": "Save To Category",
+        "description": "Title for a context menu item to choose a category to save marks and notes on a page"
+    },
+
+    "save_error": {
+        "message": "An error occurred while trying to save the page: $details$",
+        "placeholders": {
+            "details" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "save_success_msg": {
+        "message": "The page has been saved successfully",
+        "description": "What user sees after a page has been saved to storage"
+    },
+
+    "save_to_category_success_msg": {
+        "message": "The page has been saved to a category '$category$'",
+        "description": "What user sees after a page with a category has been saved to storage",
+        "placeholders": {
+            "category" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "load": {
+        "message": "Load Page",
+        "description": "Title for a context menu item loading marks and notes on a page"
+    },
+
+    "load_msg": {
+        "message": "Page is loading",
+        "description": "What user sees when a page is being loaded from storage"
+    },
+
+    "load_error": {
+        "message": "An error occurred while trying to load the page: $details$",
+        "placeholders": {
+            "details" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "load_success_msg": {
+        "message": "The page has been loaded successfully",
+        "description": "What user sees after a page has been loaded from storage"
+    },
+
+    "preferences": {
+        "message": "Preferences",
+        "description": "Title for a context menu item relocating to the preferences page"
+    },
+
+    "preferences_option_warning": {
+        "message": "Warn about unsaved changes",
+        "description": "Description of a preferences option managing warnings about unsaved changes on a page"
+    },
+    
+    "preferences_option_auto_load": {
+        "message": "Load a page automatically from storage",
+        "description": "Description of a preferences option managing autoloading a page"
+    },
+
+    "preferences_option_default_colour": {
+        "message": "Default Colour:",
+        "description": "Description of a preferences option setting a default colour"
+    },
+
+    "page_unload_warn": {
+        "message": "You will discard all unsaved changes on this page when leaving",
+        "description": "Warning when there is a try to leave a page with unsaved changes"
+    }, 
+
+    "preferences_new_category": {
+        "message": "New category title",
+        "description": "Placeholder for a field with a title for a new page category in the preferences"
+    },
+
+    "preferences_none_category": {
+        "message": "None",
+        "description": "Name for categorising pages without a category"
+    },
+
+    "preferences_no_category_warning": {
+        "message": "There is no category with a name '$title$'",
+        "placeholders": {
+            "title" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "preferences_long_category_name_warning": {
+        "message": "A name for a category cannot be longer than $number$ characters",
+        "placeholders": {
+            "number" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "preferences_unnamed_category_warning": {
+        "message": "Please, provide a name for a new category"
+    },
+
+    "preferences_none_category_warning": {
+        "message": "The 'None' category is already used for pages without a category"
+    },
+
+    "preferences_duplicated_category_warning": {
+        "message": "There is already a category with a name '$title$'",
+        "placeholders": {
+            "title" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "preferences_category_default_btn": {
+        "message": "Make Default",
+        "description": "Label for a button making a page category default"
+    },
+
+    "preferences_category_add_btn": {
+        "message": "Add",
+        "description": "Label for a button adding a new page category"
+    },
+
+    "preferences_category_table": {
+        "message": "Page Categories:",
+        "description": "Label for a table listing all categories for saved pages in the preferences"
+    },
+
+    "preferences_category_table_title_header": {
+        "message": "Title",
+        "description": "Label for a category table column header featuring a category title"
+    },
+
+    "preferences_category_table_default_header": {
+        "message": "Default",
+        "description": "Label for a category table column header featuring a category default mark"
+    },
+    
+    "preferences_page_table": {
+        "message": "Saved Pages:",
+        "description": "Label for a table listing all saved pages in the preferences"
+    },
+
+    "preferences_page_table_title_header": {
+        "message": "Page",
+        "description": "Label for a page table column header featuring a page name"
+    },
+
+    "preferences_page_table_date_header": {
+        "message": "Date",
+        "description": "Label for a page table column header showing a date when a page was saved"
+    },
+
+    "preferences_search": {
+        "message": "Search",
+        "description": "Placeholder for a field filtering saved pages"
+    },
+
+    "preferences_category_filter": {
+        "message": "Categories:",
+        "description": "Label for a filtering list with page categories"
+    },
+
+    "preferences_page_show_btn": {
+        "message": "Open",
+        "description": "Label for a button showing a saved page in a new tab"
+    },
+
+    "preferences_page_show_btn_title": {
+        "message": "Open in a New Tab"
+    },
+
+    "preferences_move_btn": {
+        "message": "Move To",
+        "description": "Label for a button moving a page to another category"
+    },
+
+    "preferences_move_btn_title": {
+        "message": "Move to Another Category"
+    },
+
+    "preferences_remove_btn": {
+        "message": "Remove",
+        "description": "Label for a removing button"
+    },
+
+    "preferences_page_insert_btn": {
+        "message": "Import / Insert",
+        "description": "Label for a button inserting a page package into storage"
+    },
+
+    "preferences_page_insert_btn_title": {
+        "message": "Import and add only new pages"
+    },
+
+    "preferences_page_unpsert_btn": {
+        "message": "Import / Update",
+        "description": "Label for a button upserting a page package into storage"
+    },
+
+    "preferences_page_unpsert_btn_title": {
+        "message": "Import and update existent pages"
+    },
+
+    "preferences_page_export_btn": {
+        "message": "Export",
+        "description": "Label for a button exporting saved pages as a page package"
+    },
+
+    "preferences_page_export_btn_title": {
+        "message": "Export saved pages",
+        "description": "Title for a button exporting saved pages as a page package"
+    },
+    
+    "preferences_save_btn": {
+        "message": "Save",
+        "description": "Label for a button saving all the preferences"
+    },
+
+    "preferences_shortcuts_input": {
+        "message": "Press Key Combination",
+        "description": "Placeholder for a text control for entering a shortcut"
+    },
+
+    "preferences_option_shortcuts": {
+        "message": "Keyboard Shortcuts:",
+        "description": "Label for a section for setting up shortcuts"
+    },
+
+    "preferences_shortcuts_group_marking": {
+        "message": "Marking",
+        "description": "Label for an option group featuring shortcuts for marking"
+    },
+    
+    "preferences_shortcuts_group_notes": {
+        "message": "Notes",
+        "description": "Label for an option group featuring shortcuts for notes"
+    },
+
+    "preferences_shortcuts_group_storage": {
+        "message": "Storage",
+        "description": "Label for an option group featuring shortcuts for the stoarge commands"
+    },
+
+    "preferences_shortcuts_group_other": {
+        "message": "Other",
+        "description": "Label for an option group featuring shortcuts for other commands"
+    },
+
+    "preferences_shortcuts_tooltip": {
+        "message": "Use 2-3 keys as combinations, excluding Shift, Ctrl and PrintScreen. Different combinations cannot start with identical keys",
+        "description": "Title expanding on what key combinations can be used as shortcuts"
+    },
+    
+    "preferences_shortcuts_apply": {
+        "message": "Apply",
+        "description": "Label for a button to apply a shortcut to a command"
+    },
+
+    "preferences_shortcuts_clear": {
+        "message": "Clear",
+        "description": "Label for a button to clear a shortcut to a command"
+    },
+    
+    "preferences_applying_shortcut_info": {
+        "message": "A new keyboard shortcut must be applied before saving"
+    },
+
+    "preferences_empty_shortcut_warning": {
+        "message": "Choose a command to apply the keyboard shortcut"
+    },
+
+    "preferences_duplicated_shortcut_warning": {
+        "message": "Applying a combination $shortcut$ will remove one for a command $command$",
+        "placeholders": {
+            "shortcut" : {
+                "content" : "$1"
+            },
+            "command": {
+                "content" : "$2"
+            }
+        }
+    },
+
+    "import_inserted_page_count": {
+        "message": "A number of sucessfully imported pages is $count$",
+        "description": "Status featuring a number of successfully imported pages",
+        "placeholders": {
+            "count" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "import_wrong_format_error": {
+        "message": "Importing pages has failed: the file is not of the proper format"
+    },
+
+    "import_error": {
+        "message": "Importing pages has failed: the file is not of the proper format: $details$",
+        "placeholders": {
+            "details" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "export_error": {
+        "message": "Forming a package of pages for export has failed: $details$",
+        "placeholders": {
+            "details" : {
+                "content" : "$1"
+            }
+        }
+    },
+
+    "package_init_error": {
+        "message": "Preferences should be loaded before initialising the export system",
+        "description": "Error message when export initialisation has failed"
+    },
+
+    "package_empty_info_error": {
+        "message": "No information is found to be imported",
+        "description": "Error message when an imported package is empty"
+    },
+
+    "package_unknown_error": {
+        "message": "Unknown",
+        "description": "Error message for an unknown failure while operating page packages"
+    },
+
+    "description": {
+        "message": "Highbrighter to mark text, add notes and navigate them through context menu. All the changes to a page can be saved and then loaded",
+        "description": "Description of the extension from manifest.json"
+    }
+}

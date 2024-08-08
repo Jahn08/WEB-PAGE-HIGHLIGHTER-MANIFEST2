@@ -1,0 +1,94 @@
+#form--section-colours img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    width: 16px;
+    height: 16px;
+}
+
+.form--table {
+    width: 100%;
+}
+
+.form--table thead, .form--table tbody {
+    width: inherit;
+}
+
+.form--table tr {
+    width: 100%;
+}
+
+.form--table th:nth-child(2), 
+.form--table td:nth-child(2) {
+    width: 75vw;
+}
+
+.form--table th:last-child, 
+.form--table td:last-child {
+    width: 15vw;
+}
+
+.form--table tbody {
+    display: block;
+    height: 25vh;
+    overflow-y: auto;
+}
+
+.form--table tbody tr:nth-child(2n+1) {
+    background-color: gainsboro;
+}
+
+.form--table thead tr {
+    display: block;
+}
+
+.form--table--cell-title {
+    font-size: smaller;
+}
+
+.form--table--cell-header {
+    text-align: left;
+}
+
+.form--table--cell-header:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px gainsboro;
+}
+
+.form--table--cell-header-asc::after {
+    content: ' ▾';
+}
+
+.form--table--cell-header-desc::after {
+    content: ' ▴';
+}
+
+.form--table--row-hidden {
+    display: none;
+}
+
+.form-section-separated {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-section-status--label {
+    color: green;
+    display: block;
+}
+
+.form-section-status--label-warning {
+    color: brown !important;    
+}
+
+.form--table-category--row-default td:last-child > label::after {
+    content: '✓';
+}
+
+.form--section-header {
+    font-weight: bold;
+}
+
+.info-color {
+    color: darkcyan;
+}

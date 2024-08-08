@@ -1,0 +1,112 @@
+.marker-green {
+    --colour-rgb: 0, 255, 0;
+}
+
+.marker-red {
+    --colour-rgb: 255, 0, 0;
+}
+
+.marker-pink {
+    --colour-rgb: 255, 0, 212;
+}
+
+.marker-blue {
+    --colour-rgb: 0, 0, 255;
+}
+
+.marker-orange {
+    --colour-rgb: 240, 156, 0;
+}
+
+.marker-yellow {
+    --colour-rgb: 238, 255, 0;
+}
+
+.marker {
+    background-color: rgb(var(--colour-rgb), 0.5) !important;
+}
+
+.marker:hover {
+    background-color: rgb(var(--colour-rgb), 0.3) !important;
+}
+
+#blanket {
+	position: fixed;
+	width: 100vw;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+    background: gray;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.blanket-disappear {
+    opacity: 0 !important;
+    transition: opacity 1s ease-out;
+    -webkit-transition: opacity 1s, position 2s;
+    z-index: -1000 !important;
+}
+
+.blanket-leave {
+	position: relative !important;
+    transition: position 1s linear;
+    transition-delay: 1s;
+    -webkit-transition: position 1s linear;
+    -webkit-transition-delay: 1s;
+}
+
+#blanket--paragraph {
+	position: inherit;
+	top: 50%;
+    left: 35%;
+    width: 30vw;
+    word-wrap: break-word;
+	font-size: xx-large;
+    color: white;
+    line-height: inherit;
+}
+
+.marker--note {
+    background-color: bisque;
+    max-width: 20vw;
+    min-width: 10vw;
+    min-height: 15vh;
+    max-height: 25vh;
+    overflow: auto;
+    box-shadow: 2px 2px chocolate;
+    border-radius: 10px 10px;
+    padding-left: 5px;
+    position: absolute;
+    display: none;
+    top: 15px;
+    left: 0;
+    z-index: 1000;
+}
+        
+.marker-start-note::before {
+    content:'✎['attr(data-note-id)']';
+}
+
+.marker-end-note::after {
+    content:'['attr(data-note-id)']✎';
+}
+
+.marker-solid-note::before {
+    content:'✎['attr(data-note-id)': ';
+}
+
+.marker-solid-note::after {
+    content:']✎';
+}
+
+.marker-has-note {
+	position: relative;
+	background: burlywood !important;
+    color: black !important;
+}
+
+.marker-has-note:hover > .marker--note {
+    display: block;
+}
