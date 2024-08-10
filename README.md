@@ -15,7 +15,7 @@ The general functionality:
 
 ## <a name="headInstalling"></a>Installing / Getting started
 
-The application is available on [the official site for Firefox extensions](https://addons.mozilla.org/en-US/firefox/addon/highbrighter/) as well as in [the Chrome store](https://chrome.google.com/webstore/detail/highbrighter/gccbpihjfohfiipkoclimdkkeinadega). It is also possible to [deploy it locally](#headDeploying).
+The application is available on [the official site for Firefox extensions](https://addons.mozilla.org/en-US/firefox/addon/highbrighter/). It is also possible to [deploy it locally](#headDeploying).
 
 ## Developing
 

@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER.git"
+    "url": "git+https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER-MANIFEST2.git"
   },
   "author": "jahn_08",
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER#readme",
+  "homepage": "https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER-MANIFEST2#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "~6.26.3",
