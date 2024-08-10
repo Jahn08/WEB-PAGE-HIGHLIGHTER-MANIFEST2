@@ -2,8 +2,9 @@
 
 # WEB-PAGE-HIGHLIGHTER
 
-A Mozilla Firefox and Google Chrome extension that marks text on a web page. The general functionality:
+A Mozilla Firefox extension that marks text on a web page. It is based on manifest v2 and therefore [no longer supported by Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline). The manifest v3 extension for Chrome can be found in [its own repository](https://github.com/Jahn08/WEB-PAGE-HIGHLIGHTER). 
 
+The general functionality:
 * Marking text with several colours through a context menu on a page
 * Saving the marked text and loading it later when accessing the same page
 * Preferences for changing the default colour for marking and autoloading a page, provided it is available in the storage ([more about configuring](#headConfiguration))
